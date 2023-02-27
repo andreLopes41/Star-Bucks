@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    font-size: 18px;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.menu a:hover{
+	transition: 0.4s;
+	color: white;
+	background-color: #017143;
+	border-radius: 20px;
+	padding: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -300px;
+    right: -500px;
+    width: 70%;
+    height: 120%;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+.extras img{
+	height: 500px;
+}
+
+.social-media{
+    position: absolute;
+    right: 510px;
+    top: 200px;
+}
+
+.social-media img{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    margin-right: 12px;
+}
+
+.texto-sobre{
+    margin-top: 100px;
+}
+
+.texto-sobre h1{
+	margin-top: -60px;
+	font-weight: normal;
+    font-size: 50px;
+}
+
+.texto-sobre p{
+	line-height: 25px;
+	letter-spacing: 2px;
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 500px;
+}
+
+.texto-sobre a{
+	text-decoration: none;
+    border: 0;
+    background-color: #017143;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.texto-sobre a:hover{
+	transition: 0.5s;
+	color: #017143;
+	background-color: white;
+	font-size: 18px;
+}
+
+.amostras{
+	margin-left: 43%;
+	width: 450px;
+}
+
+.amostras img{
+	width: 60px;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+.amostras img:hover{
+	cursor: pointer;
+	border: 3px solid #017143;
+	padding: 4px;
